@@ -15,8 +15,7 @@ class Player extends Human {
 
   Player({required this.name, required this.xp, required this.team});
 
-  // 👉 상속한 추상클래스의 메서드를 만들지 않으면 에러 발생 - 필수 함수 지정이 가능해짐
-  //@Override
+  // 👉 상속한 추상클래스의 메서드를 만들지 않으면 에러 발생 - 필수 함수 지정이 가능해짐  
   void walk() {
     print("걷는중! 추상메서드 상속을 통해 만들어짐");
   }
